@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Leckerli+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link rel="icon" href="images/bg.jpg" type="image/jpg" />
+    <title>Blog K</title>
+  </head>
+  <body>
+    <header>
+      <!-- Jumbotron -->
+      <div id="intro" class="intro">
+        <img src="images/bg.jpg" class="img-fluid w-100" style="height: 350px" alt="..." />
+        <div class="head text-center">
+          <h1>Selamat Datang Di</h1>
+          <h6>PESONA JAWA BARAT</h6>
+          <p>Rekomendasi tempat wisata dan budaya di Bandung</p>
+          <hr class="w-25 mx-auto" />
+        </div>
+      </div>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-secondary shadow">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#beranda">Beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#wisata">Tempat Wisata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#seni">Seni</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#makanan">Rumah Makan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hubungi">Hubungi</a>
+              </li>
+            </ul>
+
+            <ul id="hubungi" class="navbar-nav ms">
+              <li class="nav-item">
+                <a href="https://youtube.com/@redcarry8743?si=kqqstEYddVa6Cq4X" target="_blank">
+                  <i class="fab fa-youtube px-2"></i>
+                </a>
+                <a href="https://instagram.com/red.carry?igshid=YTQwZjQ0NmI0OA==" target="_blank">
+                  <i class="fab fa-instagram px-2"></i>
+                </a>
+                <a href="https://www.tiktok.com/@redcarry636?_t=8hScfZLQ1NC&_r=1" target="_blank">
+                  <i class="fab fa-tiktok px-2"></i>
+                </a>
+                <a href="https://x.com/redcarry718076?t=dC3vpO98lKhgX1JqYKx5MA&s=09" target="_blank">
+                  <i class="fab fa-twitter px-2"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Beranda -->
+    <div id="beranda" class="container mt-4">
+      <h4>Pesona Jawa Barat</h4>
+      <hr />
+      <p>
+        Jawa Barat adalah sebuah provinsi di Indonesia yang terletak di bagian barat pulau Jawa, dengan ibu kota provinsi di Kota Bandung. Jawa Barat berbatasan dengan provinsi Banten dan wilayah ibu kota Jakarta di sebelah barat, Laut Jawa
+        di utara, Provinsi Jawa Tengah di timur, dan Samudera Hindia di sebelah selatan. Bersama dengan Provinsi Banten, Jawa Barat disebut sebagai Tatar Sunda atau Pasundan karena merupakan kampung asli masyarakat Sunda, suku terbesar
+        kedua di Indonesia.
+      </p>
+    </div>
+
+    <!-- Wisata -->
+    <section id="wisata" class="wisata container mt-4">
+      <div class="row">
+        <h4 class="text-center">Rekomendasi Tempat Wisata</h4>
+        <hr class="w-100" />
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card">
+            <img src="images/wisata/gunung-putri-lembang.jpg" class="card-img-top" alt="Gunung Putri Lembang" />
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <div>
+                <h5 class="card-title">Gunung Putri Lembang</h5>
+                <p class="card-text">TEMPAT WISATA</p>
+                <a href="https://id.wikipedia.org/wiki/Gunung_Putri,_Lembang" target="_blank" class="btn btn-primary">Selengkapnya</a>
+                | <a href="https://maps.app.goo.gl/RXXHh4JkLpR7rXfq7" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card">
+            <img src="images/wisata/situ-patenggang.jpg" class="card-img-top" alt="Situ Patenggang" />
+            <div class="card-body">
+              <h5 class="card-title">Situ Patenggang</h5>
+              <p class="card-text">TEMPAT WISATA</p>
+              <a href="https://id.wikipedia.org/wiki/Situ_Patenggang" target="_blank" class="btn btn-primary">Selengkapnya</a>
+              | <a href="https://maps.app.goo.gl/R1Bvee8M4qZkEUBY9" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card">
+            <img src="images/wisata/tangkuban-perahu.jpg" class="card-img-top" alt="Tangkuban Perahu" />
+            <div class="card-body">
+              <h5 class="card-title">Tangkuban Perahu</h5>
+              <p class="card-text">TEMPAT WISATA</p>
+              <a href="https://id.wikipedia.org/wiki/Gunung_Tangkuban_Parahu" target="_blank" class="btn btn-primary">Selengkapnya</a>
+              | <a href="https://maps.app.goo.gl/5QqBZVUimEZMk2E66" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card">
+            <img src="images/wisata/kawah-putih.jpg" class="card-img-top" alt="Kawah Putih" />
+            <div class="card-body">
+              <h5 class="card-title">Kawah Putih</h5>
+              <p class="card-text">TEMPAT WISATA</p>
+              <a href="https://id.wikipedia.org/wiki/Kawah_Putih" target="_blank" class="btn btn-primary">Selengkapnya</a>
+              | <a href="https://maps.app.goo.gl/vTz4jmQw3bALgPk16" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card">
+            <img src="images/wisata/tebing-keraton.jpg" class="card-img-top" alt="Tebing Keraton" />
+            <div class="card-body">
+              <h5 class="card-title">Tebing Keraton</h5>
+              <p class="card-text">TEMPAT WISATA</p>
+              <a href="https://id.wikipedia.org/wiki/Tebing_Keraton" target="_blank" class="btn btn-primary">Selengkapnya</a>
+              | <a href="https://maps.app.goo.gl/SqtqjijLQdhFWyt28" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mt-4">
+          <div class="card">
+            <img src="images/wisata/kampung-cai.jpg" class="card-img-top" alt="Kampung Cai" />
+            <div class="card-body">
+              <h5 class="card-title">Kampung Cai</h5>
+              <p class="card-text">TEMPAT WISATA</p>
+              <a href="https://id.wikipedia.org/wiki/Ranca_Upas" target="_blank" class="btn btn-primary">Selengkapnya</a>
+              | <a href="https://maps.app.goo.gl/HnwM4ddFkQJc2mVP6" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daftar -->
+    <section id="daftar" class="daftar container p-5 mt-4">
+      <div class="row justify-content-between align-items-center">
+        <div class="content col-lg-6 col-md-6 col-12">
+          <h1>Ingin selalu mendapatkan update mengenai blog ini?</h1>
+          <p>Daftarkan email anda sekarang juga</p>
+        </div>
+        <div class="sub col-lg-6 col-md-6 col-12">
+          <input id="emailInput" class="py-2 px-3 col-lg-6 col-md-12 w-100 my-1" type="email" name="" placeholder="Masukan email" />
+          <button onclick="registerToBandungClub(event)" class="text-uppercase col-lg-5 col-md-12">Daftar</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seni -->
+    <section id="seni" class="seni container mt-4">
+      <div class="row">
+        <div class="post col-lg-8 col-md-8 col-12">
+          <div class="row">
+            <h4 class="text-center">Kesenian di Jawa Barat</h4>
+            <hr class="w-100" />
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/seni/angklung.jpg" alt="Angklung" />
+              <h3>Angklung</h3>
+              <p>Kesenian Jawa Barat | <a href="https://id.wikipedia.org/wiki/Angklung" target="_blank">Baca selengkapnya</a></p>
+            </div>
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/seni/tari-merak.png" alt="Tari Merak" />
+              <h3>Tari Merak</h3>
+              <p>Kesenian Jawa Barat | <a href="https://id.wikipedia.org/wiki/Tari_Merak" target="_blank">Baca selengkapnya</a></p>
+            </div>
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/seni/badawang.jpg" alt="Badawang" />
+              <h3>Badawang</h3>
+              <p>Kesenian Jawa Barat | <a href="https://id.wikipedia.org/wiki/Badawang" target="_blank">Baca selengkapnya</a></p>
+            </div>
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/seni/wayang-golek.jpg" alt="Wayang Golek" />
+              <h3>Wayang Golek</h3>
+              <p>Kesenian Jawa Barat | <a href="https://id.wikipedia.org/wiki/Wayang_golek" target="_blank">Baca selengkapnya</a></p>
+            </div>
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/seni/tari-jaipong.jpg" alt="Tari Jaipong" />
+              <h3>Tari Jaipong</h3>
+              <p>Kesenian Jawa Barat | <a href="https://id.wikipedia.org/wiki/Jaipongan" target="_blank">Baca selengkapnya</a></p>
+            </div>
+            <div class="post1 col-lg-6 col-md-6 col-12 pb-4">
+              <img class="img-fluid pb-3" src="images/seni/tari-topeng.JPG" alt="Tari Topeng" />
+              <h3>Tari Topeng</h3>
+              <p>Kesenian Jawa Barat | <a href="https://id.wikipedia.org/wiki/Tari_Topeng_Cirebon" target="_blank">Baca selengkapnya</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar col-lg-4 col-md-4 col-12">
+          <div class="side1 text-center pb-3">
+            <h4 class="text-center">Profil Penulis</h4>
+            <hr class="w-100" />
+            <img class="img-fluid" src="images/profil-diri.png" alt="Profil" />
+            <h3>Kesyza Andriana Hartuti</h3>
+            <h6>Mahasiswa | Developer</h6>
+            <p>"Saya adalah seorang penggemar K-Pop yang bercita-cita menjadi sosok 'rich aunty' di masa depan."</p>
+            <ul id="kontak" class="navbar-nav ms">
+              <li class="nav-item">
+                <a href="https://instagram.com/red.carry?igshid=YTQwZjQ0NmI0OA==" target="_blank">
+                  <i class="fab fa-instagram px-2"></i>
+                </a>
+                <a href="https://id.linkedin.com/in/kesyza-andriana-hartuti-705950291" target="_blank">
+                  <i class="fab fa-linkedin px-2"></i>
+                </a>
+                <a href="https://github.com/Kesyza15" target="_blank">
+                  <i class="fa-brands fa-github px-2"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="side2 mt-5" id="makanan">
+            <h3>Top 3 rumah makan khas Sunda</h3>
+            <hr class="w-100" />
+            <div class="row pb-3">
+              <div class="sideimg col-lg-4 col-md-4 col-4">
+                <img class="img-fluid" src="images/seni/1.webp" alt="Rumah Makan" />
+              </div>
+              <div class="sidetext col-lg-8 col-md-8 col-8">
+                <h4>RM Asli Khas Sunda Cibiuk</h4>
+                <a href="https://maps.app.goo.gl/2fpZ8TFbfS5Hp5a16" target="_blank">Lihat di maps</a>
+              </div>
+            </div>
+            <div class="row pb-3">
+              <div class="sideimg col-lg-4 col-md-4 col-4">
+                <img class="img-fluid" src="images/seni/2.jpg" alt="Rumah Makan" />
+              </div>
+              <div class="sidetext col-lg-8 col-md-8 col-8">
+                <h4>Warung Nasi Ibu Imas</h4>
+                <a href="https://maps.app.goo.gl/r1WbAgk9a4NsJQee7" target="_blank">Lihat di maps</a>
+              </div>
+            </div>
+            <div class="row pb-3">
+              <div class="sideimg col-lg-4 col-md-4 col-4">
+                <img class="img-fluid" src="images/seni/3.webp" alt="Rumah Makan" />
+              </div>
+              <div class="sidetext col-lg-8 col-md-8 col-8">
+                <h4>Warung Nasi Alam Sunda</h4>
+                <a href="https://maps.app.goo.gl/L574EZBd7adVDxf57" target="_blank">Lihat di maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-lg-start bg-light text-muted">
+      <div class="text-center p-4">
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="https://instagram.com/kxxndrh_?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Kesyza Andriana Hartuti</a>
+      </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function validateEmail(email) {
+        const re = /\S+@\S+\.\S+/;
+        return re.test(email);
+      }
+
+      function registerToBandungClub(event) {
+        event.preventDefault();
+        var emailInput = document.getElementById("emailInput");
+        var email = emailInput.value;
+        if (validateEmail(email)) {
+          alert("Selamat!!! Anda sudah menjadi bagian dari Bandung Club!");
+          emailInput.value = "";
+        } else {
+          alert("Mohon masukkan alamat email yang valid.");
+        }
+      }
+    </script>
+    <script>
+      // Ambil elemen tombol back-to-top
+      const backToTopButton = document.getElementById("btn-back-to-top");
+
+      // Tampilkan tombol saat pengguna menggulir ke bawah
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          backToTopButton.style.display = "block";
+        } else {
+          backToTopButton.style.display = "none";
+        }
+      });
+
+      // Kembali ke atas saat tombol diklik
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+  </body>
+</html>
