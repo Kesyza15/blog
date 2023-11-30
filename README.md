@@ -1,2 +1,2 @@
-# blog
-Blog 
+# Blog
+Blog sederhana menggunakan HTML, CSS, & Bootstrap 
