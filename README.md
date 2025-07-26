@@ -15,4 +15,4 @@ Kamu bisa mengunduh atau clone repository ini dengan dua cara:
 
 ## Clone via Git (rekomendasi)
 Jika kamu punya Git di komputermu, jalankan perintah berikut:
-git clone https://github.com/Kesyza15/blog.git
+"git clone https://github.com/Kesyza15/blog.git"
